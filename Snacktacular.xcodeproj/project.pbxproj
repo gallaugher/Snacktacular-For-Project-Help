@@ -7,32 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0A7FB520558A2E00B43ECF /* SpotReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A7FB420558A2E00B43ECF /* SpotReviewsTableViewCell.swift */; };
 		3E0EFA21201E589700CEB154 /* SpotDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EFA20201E589700CEB154 /* SpotDetailViewController.swift */; };
 		3E0EFA23201E624A00CEB154 /* UIView+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0EFA22201E624A00CEB154 /* UIView+addBorder.swift */; };
+		3E3AAC762047493200938EC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E3AAC752047493200938EC9 /* GoogleService-Info.plist */; };
+		3E69B892205EF44900B77BF7 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69B891205EF44900B77BF7 /* PhotoTableViewController.swift */; };
+		3E8491CB2055CE6D004F6FA4 /* Double+roundTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8491CA2055CE6D004F6FA4 /* Double+roundTo.swift */; };
+		3EB9B65C205B0809000CA874 /* SnackUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB9B65B205B0809000CA874 /* SnackUser.swift */; };
+		3EC6F657205DBB0200233A4D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6F656205DBB0200233A4D /* Photo.swift */; };
+		3EC6F65B205DBEC600233A4D /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6F65A205DBEC600233A4D /* Photos.swift */; };
+		3EC6F65D205DC1C300233A4D /* SpotPhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC6F65C205DC1C300233A4D /* SpotPhotosCollectionViewCell.swift */; };
+		3EC876D220547F2E007B25AC /* ReviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC876D120547F2E007B25AC /* ReviewTableViewController.swift */; };
 		3ECBF783201D627500A1BC1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBF782201D627500A1BC1D /* AppDelegate.swift */; };
-		3ECBF785201D627500A1BC1D /* SpotListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBF784201D627500A1BC1D /* SpotListViewController.swift */; };
-		3ECBF788201D627500A1BC1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBF786201D627500A1BC1D /* Main.storyboard */; };
+		3ECBF785201D627500A1BC1D /* SpotsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBF784201D627500A1BC1D /* SpotsListViewController.swift */; };
 		3ECBF78A201D627500A1BC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBF789201D627500A1BC1D /* Assets.xcassets */; };
 		3ECBF78D201D627500A1BC1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBF78B201D627500A1BC1D /* LaunchScreen.storyboard */; };
 		3ECBF795201D723A00A1BC1D /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBF794201D723A00A1BC1D /* Spot.swift */; };
-		3EEFB12D203386870064A377 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EEFB12C203386870064A377 /* GoogleService-Info.plist */; };
+		3ECC571F20548BD200271C17 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC571E20548BD200271C17 /* Review.swift */; };
+		3ECC572120548F1400271C17 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC572020548F1400271C17 /* Reviews.swift */; };
+		3ED45BAD205D767B00457B6F /* SpotsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED45BAC205D767B00457B6F /* SpotsTableViewCell.swift */; };
+		3ED972892048C5AB00BC9257 /* Spots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED972882048C5AB00BC9257 /* Spots.swift */; };
+		3EEEA47120477E6F00DBAEFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EEEA47020477E6F00DBAEFE /* Main.storyboard */; };
 		565A063F91579C24A49EF71A /* Pods_Snacktacular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F46130F6A2F32252957BB7 /* Pods_Snacktacular.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C920C1DCB18D4CE65F3733F /* Pods-Snacktacular.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.debug.xcconfig"; sourceTree = "<group>"; };
 		2DF0BA0DB73D3F79A2652055 /* Pods-Snacktacular.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snacktacular.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snacktacular/Pods-Snacktacular.release.xcconfig"; sourceTree = "<group>"; };
+		3E0A7FB420558A2E00B43ECF /* SpotReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotReviewsTableViewCell.swift; sourceTree = "<group>"; };
 		3E0EFA20201E589700CEB154 /* SpotDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDetailViewController.swift; sourceTree = "<group>"; };
 		3E0EFA22201E624A00CEB154 /* UIView+addBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addBorder.swift"; sourceTree = "<group>"; };
+		3E3AAC752047493200938EC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3E69B891205EF44900B77BF7 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		3E8491CA2055CE6D004F6FA4 /* Double+roundTo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+roundTo.swift"; sourceTree = "<group>"; };
+		3EB9B65B205B0809000CA874 /* SnackUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackUser.swift; sourceTree = "<group>"; };
+		3EC6F656205DBB0200233A4D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		3EC6F65A205DBEC600233A4D /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		3EC6F65C205DC1C300233A4D /* SpotPhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotPhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		3EC876D120547F2E007B25AC /* ReviewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewController.swift; sourceTree = "<group>"; };
 		3ECBF77F201D627500A1BC1D /* Snacktacular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snacktacular.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECBF782201D627500A1BC1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3ECBF784201D627500A1BC1D /* SpotListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotListViewController.swift; sourceTree = "<group>"; };
-		3ECBF787201D627500A1BC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ECBF784201D627500A1BC1D /* SpotsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsListViewController.swift; sourceTree = "<group>"; };
 		3ECBF789201D627500A1BC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ECBF78C201D627500A1BC1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ECBF78E201D627500A1BC1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3ECBF794201D723A00A1BC1D /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
-		3EEFB12C203386870064A377 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3ECC571E20548BD200271C17 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		3ECC572020548F1400271C17 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		3ED45BAC205D767B00457B6F /* SpotsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsTableViewCell.swift; sourceTree = "<group>"; };
+		3ED972882048C5AB00BC9257 /* Spots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spots.swift; sourceTree = "<group>"; };
+		3EEEA47020477E6F00DBAEFE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		86F46130F6A2F32252957BB7 /* Pods_Snacktacular.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snacktacular.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,15 +94,27 @@
 			isa = PBXGroup;
 			children = (
 				3ECBF782201D627500A1BC1D /* AppDelegate.swift */,
+				3ED972882048C5AB00BC9257 /* Spots.swift */,
 				3ECBF794201D723A00A1BC1D /* Spot.swift */,
-				3ECBF784201D627500A1BC1D /* SpotListViewController.swift */,
+				3ECC572020548F1400271C17 /* Reviews.swift */,
+				3ECC571E20548BD200271C17 /* Review.swift */,
+				3EC6F65A205DBEC600233A4D /* Photos.swift */,
+				3EC6F656205DBB0200233A4D /* Photo.swift */,
+				3EB9B65B205B0809000CA874 /* SnackUser.swift */,
+				3ECBF784201D627500A1BC1D /* SpotsListViewController.swift */,
+				3ED45BAC205D767B00457B6F /* SpotsTableViewCell.swift */,
 				3E0EFA20201E589700CEB154 /* SpotDetailViewController.swift */,
-				3ECBF786201D627500A1BC1D /* Main.storyboard */,
+				3E0A7FB420558A2E00B43ECF /* SpotReviewsTableViewCell.swift */,
+				3EC6F65C205DC1C300233A4D /* SpotPhotosCollectionViewCell.swift */,
+				3EC876D120547F2E007B25AC /* ReviewTableViewController.swift */,
+				3E69B891205EF44900B77BF7 /* PhotoTableViewController.swift */,
+				3EEEA47020477E6F00DBAEFE /* Main.storyboard */,
 				3E0EFA22201E624A00CEB154 /* UIView+addBorder.swift */,
+				3E8491CA2055CE6D004F6FA4 /* Double+roundTo.swift */,
 				3ECBF789201D627500A1BC1D /* Assets.xcassets */,
 				3ECBF78B201D627500A1BC1D /* LaunchScreen.storyboard */,
 				3ECBF78E201D627500A1BC1D /* Info.plist */,
-				3EEFB12C203386870064A377 /* GoogleService-Info.plist */,
+				3E3AAC752047493200938EC9 /* GoogleService-Info.plist */,
 			);
 			path = Snacktacular;
 			sourceTree = "<group>";
@@ -163,9 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ECBF78D201D627500A1BC1D /* LaunchScreen.storyboard in Resources */,
-				3EEFB12D203386870064A377 /* GoogleService-Info.plist in Resources */,
+				3EEEA47120477E6F00DBAEFE /* Main.storyboard in Resources */,
+				3E3AAC762047493200938EC9 /* GoogleService-Info.plist in Resources */,
 				3ECBF78A201D627500A1BC1D /* Assets.xcassets in Resources */,
-				3ECBF788201D627500A1BC1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ECBF785201D627500A1BC1D /* SpotListViewController.swift in Sources */,
+				3EC6F657205DBB0200233A4D /* Photo.swift in Sources */,
+				3ECBF785201D627500A1BC1D /* SpotsListViewController.swift in Sources */,
+				3ECC571F20548BD200271C17 /* Review.swift in Sources */,
+				3EC6F65D205DC1C300233A4D /* SpotPhotosCollectionViewCell.swift in Sources */,
+				3E69B892205EF44900B77BF7 /* PhotoTableViewController.swift in Sources */,
+				3EC6F65B205DBEC600233A4D /* Photos.swift in Sources */,
+				3ED972892048C5AB00BC9257 /* Spots.swift in Sources */,
 				3E0EFA21201E589700CEB154 /* SpotDetailViewController.swift in Sources */,
 				3ECBF795201D723A00A1BC1D /* Spot.swift in Sources */,
+				3EB9B65C205B0809000CA874 /* SnackUser.swift in Sources */,
+				3EC876D220547F2E007B25AC /* ReviewTableViewController.swift in Sources */,
+				3ECC572120548F1400271C17 /* Reviews.swift in Sources */,
+				3E8491CB2055CE6D004F6FA4 /* Double+roundTo.swift in Sources */,
+				3ED45BAD205D767B00457B6F /* SpotsTableViewCell.swift in Sources */,
+				3E0A7FB520558A2E00B43ECF /* SpotReviewsTableViewCell.swift in Sources */,
 				3ECBF783201D627500A1BC1D /* AppDelegate.swift in Sources */,
 				3E0EFA23201E624A00CEB154 /* UIView+addBorder.swift in Sources */,
 			);
@@ -286,14 +334,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3ECBF786201D627500A1BC1D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3ECBF787201D627500A1BC1D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3ECBF78B201D627500A1BC1D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
